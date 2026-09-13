@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/2002/06/xhtml2" xml:lang="zh-CN">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Projects - Fgaoxing</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <script src="../chkSpt.js"></script>
+    <script>
+        var r = chkSpt();
+        var v = parseInt(r.v) || 0;
+        if (r.h === '2' || r.h === '3.2') {
+            location.replace('../projects.txt');
+        } else if (r.h === '4.0' || r.h === '4.01') {
+            location.replace('../projects.txt');
+        } else if (r.h === 'X') {
+            location.replace('../projects.txt');
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <h>Selected Projects</h>
+        <p>从个人项目到团队协作</p>
+    </header>
+
+    <nav>
+        <h>Navigation</h>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="questions.html">Questions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h>Goh | 2024</h>
+        <p>预编译高性能Go模板引擎。将解析过程从Runtime移到Build time，高吞吐场景下边际开销趋近零。</p>
+        <p><em>Go, Template Engine, High Performance</em></p>
+        <p><a href="https://github.com/Fgaoxing">Source →</a></p>
+    </section>
+
+    <section>
+        <h>MiniGFM | 2024</h>
+        <p>3KB轻量级Markdown渲染库（Gzipped仅1.5KB）。无外部依赖、兼容GFM规范、内置XSS防护。</p>
+        <p><em>JavaScript, Markdown, Lightweight</em></p>
+        <p><a href="https://github.com/Fgaoxing">Source →</a></p>
+    </section>
+
+    <section>
+        <h>Vercel-CDN | 2024</h>
+        <p>Vercel全球加速方案。边缘缓存+自定义域名策略，解决中国境内访问延迟问题。</p>
+        <p><em>Vercel, CDN, Network</em></p>
+        <p><a href="https://github.com/Fgaoxing">Source →</a></p>
+    </section>
+
+    <section>
+        <h>Xelsior | 2023</h>
+        <p>记事本应用。TOO团队核心产品之一，支持富文本编辑、分类管理、云端同步。</p>
+        <p><em>Desktop App</em></p>
+        <p><a href="https://github.com/Fgaoxing">Source →</a></p>
+    </section>
+
+    <section>
+        <h>Hexo 主题 | 2023</h>
+        <p>个人Hexo博客主题。支持暗色模式、响应式布局、代码高亮、SEO优化。</p>
+        <p><em>Hexo, CSS/JS, Theme</em></p>
+        <p><a href="https://yt-blog.top">Blog →</a></p>
+    </section>
+
+    <section>
+        <h>pandown-js | 2023</h>
+        <p>网盘下载按钮链接工具。用户脚本形式部署。</p>
+        <p><em>JavaScript, Userscript, Utility</em></p>
+        <p><a href="https://github.com/Fgaoxing">Source →</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Fgaoxing</p>
+        <p><a href="index.html">← 返回主页</a></p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

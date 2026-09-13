@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/2002/06/xhtml2" xml:lang="zh-CN">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>About - Fgaoxing</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <script src="../chkSpt.js"></script>
+    <script>
+        var r = chkSpt();
+        var v = parseInt(r.v) || 0;
+        if (r.h === '2' || r.h === '3.2') {
+            location.replace('../about.txt');
+        } else if (r.h === '4.0' || r.h === '4.01') {
+            location.replace('../about.txt');
+        } else if (r.h === 'X') {
+            location.replace('../about.txt');
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <h>About Fgaoxing</h>
+        <p>全栈开发者，TOO成员</p>
+    </header>
+
+    <nav>
+        <h>Navigation</h>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="questions.html">Questions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h>Bio</h>
+        <p>平时写Go和Python，前后端都碰。对模板引擎、网络编程这类偏底层的方向比较感兴趣。</p>
+        <p>2022年和朋友们一起创立 Team OblivionOcean（玄云海工作室），一起做些开源项目。</p>
+        <blockquote>爱造轮子，但相信Benchmark。性能数据不会骗人。</blockquote>
+    </section>
+
+    <section>
+        <h>Details</h>
+        <dl>
+            <dt>Name</dt><dd>F gaoxing（姓方）</dd>
+            <dt>Age</dt><dd>16 (2010.02)</dd>
+            <dt>Role</dt><dd>Full Stack Developer</dd>
+            <dt>Location</dt><dd>China</dd>
+            <dt>Focus</dt><dd>Go / Web / Systems</dd>
+            <dt>Blog</dt><dd><a href="https://yt-blog.top">yt-blog.top</a></dd>
+        </dl>
+    </section>
+
+    <section>
+        <h>Philosophy</h>
+        <ul>
+            <li>代码首先是给人看的，其次才是给机器跑的</li>
+            <li>好的架构是演化出来的，不是设计出来的</li>
+            <li>爱造轮子，复用之前先理解原理</li>
+            <li>Benchmark说话，直觉会骗人</li>
+            <li>预编译优于解释，零拷贝优于反射</li>
+            <li>前端：无依赖、极小体积、高性能</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Fgaoxing</p>
+        <p><a href="index.html">← 返回主页</a></p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

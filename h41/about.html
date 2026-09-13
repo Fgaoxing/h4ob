@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML LANG="zh-CN" CLASS="sub-page">
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0">
+<TITLE>About - Fgaoxing</TITLE>
+<SCRIPT SRC="../chkSpt.js"></SCRIPT>
+<SCRIPT>
+var r=chkSpt(),h=r.h,t='';
+if(h==='2')t='../h2/about.html';
+else if(h==='3.2')t='../h3/about.html';
+else if(h==='4.0')t='../h4/about.html';
+else if(h==='4.01'||h==='5~')t='about.html';
+else if(h==='5'){location.replace('https://yt-blog.top');t='x';}
+else t='about.html';
+if(t!=='about.html'&&t!=='x')location.replace(t);
+</SCRIPT>
+<LINK REL="preconnect" HREF="https://fonts.googleapis.com">
+<LINK REL="preconnect" HREF="https://fonts.gstatic.com" crossorigin>
+<LINK HREF="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" REL="stylesheet">
+<LINK REL="stylesheet" HREF="assets/css/style.css">
+</HEAD>
+<BODY>
+
+<DIV CLASS="page-header">
+    <A HREF="index.html" CLASS="back-link">
+        <svg WIDTH="16" HEIGHT="16" VIEWBOX="0 0 24 24" FILL="none" STROKE="currentColor" STROKE-WIDTH="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        返回
+    </A>
+    <SPAN CLASS="page-title">About</SPAN>
+    <BUTTON CLASS="menu-btn" ID="menuBtn" ARIA-LABEL="菜单" TYPE="button">
+        <SPAN></SPAN><SPAN></SPAN><SPAN></SPAN>
+    </BUTTON>
+</DIV>
+
+<DIV CLASS="menu-overlay" ID="menuOverlay">
+    <NAV CLASS="menu-inner">
+        <A HREF="index.html" CLASS="menu-link">Home</A>
+        <A HREF="projects.html" CLASS="menu-link">Projects</A>
+        <A HREF="questions.html" CLASS="menu-link">Questions</A>
+        <A HREF="contact.html" CLASS="menu-link">Contact</A>
+    </NAV>
+</DIV>
+
+<MAIN>
+    <DIV CLASS="page-hero">
+        <H1>About<BR><SPAN CLASS="accent">Fgaoxing</SPAN></H1>
+        <P>全栈开发者，TOO成员。写代码，做开源，偶尔折腾些有意思的东西。</P>
+    </DIV>
+
+    <SECTION>
+        <DIV CLASS="section-label">Bio</DIV>
+        <H2>简介</H2>
+        <P>平时写 Go 和 Python，前后端都碰。对模板引擎、网络编程这类偏底层的方向比较感兴趣，也在慢慢学编译器和系统相关的东西。</P>
+        <P>2022 年和朋友们一起创立 Team OblivionOcean（玄云海工作室），一起做些开源项目。博客 <A HREF="https://yt-blog.top" TARGET="_blank" REL="noopener noreferrer" STYLE="color:#007bff">yt-blog.top</A> 用来记录踩坑、性能优化探索和一些杂七杂八的思考。</P>
+        <BLOCKQUOTE CLASS="quote-block">爱造轮子，但相信 Benchmark。性能数据不会骗人。</BLOCKQUOTE>
+    </SECTION>
+
+    <SECTION>
+        <DIV CLASS="section-label">Details</DIV>
+        <H2>基本信息</H2>
+        <DIV CLASS="bio-grid">
+            <DIV CLASS="bio-card"><DIV CLASS="bio-card-label">Name</DIV><DIV CLASS="bio-card-value">F gaoxing<BR><SMALL STYLE="color:#A6A6A6;font-size:12px;">姓方，真名暂不公布</SMALL></DIV></DIV>
+            <DIV CLASS="bio-card"><DIV CLASS="bio-card-label">Age</DIV><DIV CLASS="bio-card-value">16<BR><SMALL STYLE="color:#A6A6A6;font-size:12px;">2010.02</SMALL></DIV></DIV>
+            <DIV CLASS="bio-card"><DIV CLASS="bio-card-label">Role</DIV><DIV CLASS="bio-card-value" STYLE="color:#007bff">Full Stack Developer</DIV></DIV>
+            <DIV CLASS="bio-card"><DIV CLASS="bio-card-label">Location</DIV><DIV CLASS="bio-card-value">China</DIV></DIV>
+            <DIV CLASS="bio-card"><DIV CLASS="bio-card-label">Focus</DIV><DIV CLASS="bio-card-value">Go / Web / Systems</DIV></DIV>
+            <DIV CLASS="bio-card"><DIV CLASS="bio-card-label">Blog</DIV><DIV CLASS="bio-card-value"><A HREF="https://yt-blog.top" TARGET="_blank" REL="noopener noreferrer" STYLE="color:#ffffff;text-decoration:none;">yt-blog.top</A></DIV></DIV>
+        </DIV>
+        <DIV CLASS="stats-row" STYLE="margin-top:32px;">
+            <DIV CLASS="stat-item"><DIV CLASS="stat-num">8+</DIV><DIV CLASS="stat-label">Years Coding</DIV></DIV>
+            <DIV CLASS="stat-item"><DIV CLASS="stat-num">25+</DIV><DIV CLASS="stat-label">Repos</DIV></DIV>
+            <DIV CLASS="stat-item"><DIV CLASS="stat-num">367</DIV><DIV CLASS="stat-label">Stars</DIV></DIV>
+        </DIV>
+    </SECTION>
+
+    <SECTION>
+        <DIV CLASS="section-label">Stack</DIV>
+        <H2>技术栈</H2>
+        <P>Go 为主力，Python 和 JS 为辅，C++ 在学。从应用层到运行时反射优化，从前端极简库到后端高性能框架。</P>
+        <DIV CLASS="tech-stack">
+            <SPAN CLASS="tag">Go</SPAN>
+            <SPAN CLASS="tag">Python</SPAN>
+            <SPAN CLASS="tag">JavaScript</SPAN>
+            <SPAN CLASS="tag">TypeScript</SPAN>
+            <SPAN CLASS="tag">Node.js</SPAN>
+            <SPAN CLASS="tag">C++</SPAN>
+            <SPAN CLASS="tag">HTML / CSS</SPAN>
+            <SPAN CLASS="tag">Docker</SPAN>
+            <SPAN CLASS="tag">Linux</SPAN>
+            <SPAN CLASS="tag">Git</SPAN>
+            <SPAN CLASS="tag">Nginx</SPAN>
+            <SPAN CLASS="tag">Vercel</SPAN>
+        </DIV>
+    </SECTION>
+
+    <SECTION>
+        <DIV CLASS="section-label">Philosophy</DIV>
+        <H2>开发理念 / Philosophy</H2>
+        <UL CLASS="philosophy-list">
+            <LI>代码首先是给人看的，其次才是给机器跑的 / Code is for humans first, machines second</LI>
+            <LI>好的架构是演化出来的，不是设计出来的 / Good architecture evolves, it's not designed upfront</LI>
+            <LI>爱造轮子，复用之前先理解原理 / Love building from scratch, understand before reusing</LI>
+            <LI>Benchmark 说话，直觉会骗人 / Let benchmarks speak, intuition can lie</LI>
+            <LI>预编译优于解释，零拷贝优于反射 / Precompile over interpret, zero-copy over reflection</LI>
+            <LI>前端哲学：无依赖、极小体积、高性能 / Frontend: no deps, minimal size, high performance</LI>
+            <LI>文档和代码一样重要，甚至更重要 / Documentation matters as much as code, sometimes more</LI>
+        </UL>
+    </SECTION>
+</MAIN>
+
+<FOOTER>
+    &copy; 2026 Fgaoxing &mdash; Built with care
+</FOOTER>
+
+<DIV CLASS="page-loader" ARIA-LABEL="页面加载中" ROLE="status"></DIV>
+<SCRIPT SRC="assets/js/main.js"></SCRIPT>
+</BODY>
+</HTML>

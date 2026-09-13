@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML LANG="zh-CN" CLASS="home-page">
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0">
+<TITLE>Fgaoxing</TITLE>
+<SCRIPT SRC="../chkSpt.js"></SCRIPT>
+<SCRIPT>
+var r=chkSpt(),h=r.h,t='';
+if(h==='2')t='../h2/index.html';
+else if(h==='3.2')t='../h3/index.html';
+else if(h==='4.0')t='../h4/index.html';
+else if(h==='4.01'||h==='5~')t='index.html';
+else if(h==='5'){location.replace('https://yt-blog.top');t='x';}
+else t='index.html';
+if(t!=='index.html'&&t!=='x')location.replace(t);
+</SCRIPT>
+<LINK REL="shortcut icon" HREF="https://img.yt-blog.top/webp/logo.webp">
+<META NAME="keywords" CONTENT="Fgaoxing,Fgaoxingの主页,Fgaoxing的主页,主页,个人主页">
+<META NAME="description" CONTENT="这里是Fgaoxing的个人主页！">
+<LINK REL="preconnect" HREF="https://fonts.googleapis.com">
+<LINK REL="preconnect" HREF="https://fonts.gstatic.com" crossorigin>
+<LINK HREF="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" REL="stylesheet">
+<LINK REL="stylesheet" HREF="assets/css/style.css">
+</HEAD>
+<BODY>
+
+<A HREF="#main-content" CLASS="skip-link">跳转到主要内容</A>
+
+<DIV CLASS="scroll-progress" ID="progress" ROLE="presentation"></DIV>
+
+<MAIN ID="main-content">
+
+<SECTION CLASS="hero" ID="hero" ARIA-LABEL="首屏介绍">
+    <DIV CLASS="hero-content">
+        <IMG CLASS="hero-avatar" SRC="https://img.yt-blog.top/webp/logo.webp" ALT="Fgaoxing 的头像">
+        <H1><SPAN CLASS="accent">Hello</SPAN><BR>I'm Fgaoxing</H1>
+        <P CLASS="hero-sub">全栈开发者。写代码，做开源，偶尔折腾些有意思的东西。</P>
+    </DIV>
+    <BUTTON CLASS="hero-menu-btn" ID="menuTrigger" ARIA-LABEL="打开导航菜单" ARIA-EXPANDED="false" TYPE="button">
+        <SPAN></SPAN><SPAN></SPAN><SPAN></SPAN>
+    </BUTTON>
+</SECTION>
+
+<DIV CLASS="menu-overlay" ID="menuOverlay" ROLE="dialog" ARIA-LABEL="站点导航" ARIA-MODAL="true">
+    <NAV CLASS="menu-inner" ARIA-LABEL="页面列表">
+        <DIV CLASS="menu-group-label">Pages</DIV>
+        <A HREF="about.html" CLASS="menu-link">About<SPAN CLASS="menu-arrow" ARIA-HIDDEN="true">&rarr;</SPAN></A>
+        <A HREF="projects.html" CLASS="menu-link">Projects<SPAN CLASS="menu-arrow" ARIA-HIDDEN="true">&rarr;</SPAN></A>
+        <A HREF="questions.html" CLASS="menu-link">Questions<SPAN CLASS="menu-arrow" ARIA-HIDDEN="true">&rarr;</SPAN></A>
+        <A HREF="contact.html" CLASS="menu-link">Contact<SPAN CLASS="menu-arrow" ARIA-HIDDEN="true">&rarr;</SPAN></A>
+        <DIV CLASS="menu-group-label" STYLE="margin-top:32px;">External</DIV>
+        <A HREF="https://github.com/Fgaoxing" TARGET="_blank" REL="noopener noreferrer" CLASS="menu-link">GitHub<SPAN CLASS="menu-arrow" ARIA-HIDDEN="true">&#8599;</SPAN></A>
+        <A HREF="mailto:admin@yt-blog.top" CLASS="menu-link">Email<SPAN CLASS="menu-arrow" ARIA-HIDDEN="true">&rarr;</SPAN></A>
+    </NAV>
+</DIV>
+
+<DIV CLASS="panel" ID="about" ARIA-LABELLED-BY="about-title">
+    <DIV CLASS="col">
+        <DIV CLASS="col-num animate-in from-left">01</DIV>
+        <H2 CLASS="col-title animate-in from-left" ID="about-title">关于我</H2>
+        <DIV CLASS="col-body animate-in from-left">
+            <P>全栈开发者，开源软件贡献者。</P>
+            <P>平时写 Go 和 Python，前后端都碰。对模板引擎、网络编程这类偏底层的方向比较感兴趣，也在慢慢学编译器和系统相关的东西。</P>
+            <BLOCKQUOTE CLASS="quote-block">"爱造轮子，但相信 Benchmark。性能数据不会骗人。"</BLOCKQUOTE>
+        </DIV>
+    </DIV>
+    <DIV CLASS="col">
+        <DIV CLASS="col-num animate-in from-right">Info</DIV>
+        <H3 CLASS="col-title" STYLE="font-size:24px;" CLASS="animate-in from-right">基本信息</H3>
+        <DL CLASS="info-grid animate-in from-right">
+            <DIV CLASS="info-item"><DT>Age</DT><DD>16</DD></DIV>
+            <DIV CLASS="info-item"><DT>Role</DT><DD><SPAN STYLE="color:#007bff">Full Stack Developer</SPAN></DD></DIV>
+            <DIV CLASS="info-item"><DT>Focus</DT><DD>Go / Web / Systems</DD></DIV>
+            <DIV CLASS="info-item"><DT>Location</DT><DD>China</DD></DIV>
+            <DIV CLASS="info-item"><DT>Blog</DT><DD><A HREF="https://yt-blog.top" TARGET="_blank" REL="noopener noreferrer">yt-blog.top</A></DD></DIV>
+        </DL>
+        <DIV CLASS="stats-row animate-in from-right">
+            <DIV CLASS="stat-item"><DIV CLASS="stat-num">8+</DIV><DIV CLASS="stat-label">Years Coding</DIV></DIV>
+            <DIV CLASS="stat-item"><DIV CLASS="stat-num">25+</DIV><DIV CLASS="stat-label">Repos</DIV></DIV>
+            <DIV CLASS="stat-item"><DIV CLASS="stat-num">367</DIV><DIV CLASS="stat-label">Stars</DIV></DIV>
+        </DIV>
+    </DIV>
+</DIV>
+
+<DIV CLASS="panel" ID="skills" ARIA-LABELLED-BY="skills-title">
+    <DIV CLASS="col">
+        <DIV CLASS="col-num animate-in from-left">02</DIV>
+        <H2 CLASS="col-title animate-in from-left" ID="skills-title">技术栈</H2>
+        <DIV CLASS="col-body animate-in from-left">
+            <P>Go 为主力，Python 和 JS 为辅，C++ 在学。从应用层到运行时优化，从前端极简库到后端高性能框架。</P>
+            <DIV CLASS="tag-cloud">
+                <SPAN CLASS="tag">Go</SPAN>
+                <SPAN CLASS="tag">Python</SPAN>
+                <SPAN CLASS="tag">JavaScript</SPAN>
+                <SPAN CLASS="tag">TypeScript</SPAN>
+                <SPAN CLASS="tag">Node.js</SPAN>
+                <SPAN CLASS="tag">C++</SPAN>
+                <SPAN CLASS="tag">HTML / CSS</SPAN>
+                <SPAN CLASS="tag">Docker</SPAN>
+                <SPAN CLASS="tag">Linux</SPAN>
+                <SPAN CLASS="tag">Git</SPAN>
+                <SPAN CLASS="tag">Nginx</SPAN>
+                <SPAN CLASS="tag">Vercel</SPAN>
+            </DIV>
+        </DIV>
+    </DIV>
+    <DIV CLASS="col">
+        <DIV CLASS="col-num animate-in from-right">Level</DIV>
+        <H3 CLASS="col-title" STYLE="font-size:24px;" CLASS="animate-in from-right">熟练度</H3>
+        <DIV CLASS="skill-bars animate-in from-right">
+            <DIV CLASS="skill-bar-row"><SPAN CLASS="skill-name">Go / Backend</SPAN><DIV CLASS="skill-track"><DIV CLASS="skill-fill" DATA-W="90"></DIV></DIV><SPAN CLASS="skill-pct">90%</SPAN></DIV>
+            <DIV CLASS="skill-bar-row"><SPAN CLASS="skill-name">Frontend</SPAN><DIV CLASS="skill-track"><DIV CLASS="skill-fill" DATA-W="85"></DIV></DIV><SPAN CLASS="skill-pct">85%</SPAN></DIV>
+            <DIV CLASS="skill-bar-row"><SPAN CLASS="skill-name">Python</SPAN><DIV CLASS="skill-track"><DIV CLASS="skill-fill" DATA-W="78"></DIV></DIV><SPAN CLASS="skill-pct">78%</SPAN></DIV>
+            <DIV CLASS="skill-bar-row"><SPAN CLASS="skill-name">DevOps</SPAN><DIV CLASS="skill-track"><DIV CLASS="skill-fill" DATA-W="72"></DIV></DIV><SPAN CLASS="skill-pct">72%</SPAN></DIV>
+            <DIV CLASS="skill-bar-row"><SPAN CLASS="skill-name">Systems</SPAN><DIV CLASS="skill-track"><DIV CLASS="skill-fill" DATA-W="65"></DIV></DIV><SPAN CLASS="skill-pct">65%</SPAN></DIV>
+        </DIV>
+    </DIV>
+</DIV>
+
+<DIV CLASS="panel" ID="work" ARIA-LABELLED-BY="work-title">
+    <DIV CLASS="col">
+        <DIV CLASS="col-num animate-in from-left">03</DIV>
+        <H2 CLASS="col-title animate-in from-left" ID="work-title">项目</H2>
+        <DIV CLASS="col-body animate-in from-left">
+            <P>一些做过的东西，从个人项目到团队协作。</P>
+        </DIV>
+    </DIV>
+    <DIV CLASS="col">
+        <ARTICLE CLASS="project-card animate-in from-right">
+            <HEADER CLASS="pc-header"><SPAN CLASS="pc-name">Goh</SPAN><TIME CLASS="pc-year" DATETIME="2024">2024</TIME></HEADER>
+            <P CLASS="pc-desc">预编译高性能 Go 模板引擎。将解析过程从 Runtime 移到 Build time，高吞吐场景下边际开销趋近零。</P>
+            <DIV CLASS="pc-tags"><SPAN CLASS="pc-tag">Go</SPAN><SPAN CLASS="pc-tag">Template Engine</SPAN><SPAN CLASS="pc-tag">High Performance</SPAN></DIV>
+        </ARTICLE>
+        <ARTICLE CLASS="project-card animate-in from-right">
+            <HEADER CLASS="pc-header"><SPAN CLASS="pc-name">MiniGFM</SPAN><TIME CLASS="pc-year" DATETIME="2024">2024</TIME></HEADER>
+            <P CLASS="pc-desc">3KB 轻量级 Markdown 渲染库（Gzipped 1.5KB）。无外部依赖、兼容 GFM 规范、内置 XSS 防护。</P>
+            <DIV CLASS="pc-tags"><SPAN CLASS="pc-tag">JavaScript</SPAN><SPAN CLASS="pc-tag">Markdown</SPAN><SPAN CLASS="pc-tag">Lightweight</SPAN></DIV>
+        </ARTICLE>
+        <ARTICLE CLASS="project-card animate-in from-right">
+            <HEADER CLASS="pc-header"><SPAN CLASS="pc-name">Vercel-CDN</SPAN><TIME CLASS="pc-year" DATETIME="2024">2024</TIME></HEADER>
+            <P CLASS="pc-desc">Vercel 全球加速方案。边缘缓存 + 自定义域名策略，解决中国境内访问延迟问题。</P>
+            <DIV CLASS="pc-tags"><SPAN CLASS="pc-tag">Vercel</SPAN><SPAN CLASS="pc-tag">CDN</SPAN><SPAN CLASS="pc-tag">Network</SPAN></DIV>
+        </ARTICLE>
+    </DIV>
+</DIV>
+
+<DIV CLASS="panel" ID="contact" ARIA-LABELLED-BY="contact-title">
+    <DIV CLASS="col">
+        <DIV CLASS="col-num animate-in from-left">05</DIV>
+        <H2 CLASS="col-title animate-in from-left" ID="contact-title">联系</H2>
+        <DIV CLASS="col-body animate-in from-left">
+            <P>有想法？想合作？或者只是想聊聊技术。欢迎随时联系。</P>
+            <BLOCKQUOTE CLASS="quote-block">"最好的联系方式就是直接发消息。"</BLOCKQUOTE>
+            <NAV CLASS="contact-links">
+                <A HREF="https://github.com/Fgaoxing" TARGET="_blank" REL="noopener noreferrer" CLASS="cl-link"><SPAN>GitHub</SPAN><SPAN CLASS="arrow" ARIA-HIDDEN="true">&rarr;</SPAN></A>
+                <A HREF="questions.html" CLASS="cl-link"><SPAN>Blog</SPAN><SPAN CLASS="arrow" ARIA-HIDDEN="true">&rarr;</SPAN></A>
+                <A HREF="contact.html" CLASS="cl-link"><SPAN>More</SPAN><SPAN CLASS="arrow" ARIA-HIDDEN="true">&rarr;</SPAN></A>
+            </NAV>
+        </DIV>
+    </DIV>
+    <DIV CLASS="col">
+        <FORM ID="home-contact-form" CLASS="contact-form animate-in from-right" ACTION="#" METHOD="post" ARIA-LABEL="联系表单">
+            <DIV CLASS="cf-field"><LABEL FOR="cf-name">Name</LABEL><INPUT TYPE="text" ID="cf-name" NAME="name" CLASS="cf-input" placeholder="你的名字" required autocomplete="name"></DIV>
+            <DIV CLASS="cf-field"><LABEL FOR="cf-email">Email</LABEL><INPUT TYPE="email" ID="cf-email" NAME="email" CLASS="cf-input" placeholder="your@email.com" required autocomplete="email"></DIV>
+            <DIV CLASS="cf-field"><LABEL FOR="cf-msg">Message</LABEL><TEXTAREA ID="cf-msg" NAME="message" CLASS="cf-input" placeholder="想说点什么..." required></TEXTAREA></DIV>
+            <BUTTON TYPE="submit" CLASS="cf-submit" ID="home-submit-btn">发送消息</BUTTON>
+            <DIV ID="home-form-status" CLASS="home-form-status" HIDDEN></DIV>
+        </FORM>
+    </DIV>
+</DIV>
+
+</MAIN>
+
+<FOOTER>
+    <P>&copy; 2026 Fgaoxing &mdash; Built with care</P>
+</FOOTER>
+
+<SCRIPT SRC="assets/js/main.js"></SCRIPT>
+</BODY>
+</HTML>

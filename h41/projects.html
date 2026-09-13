@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML LANG="zh-CN" CLASS="sub-page projects-page">
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0">
+<TITLE>Projects - Fgaoxing</TITLE>
+<SCRIPT SRC="../chkSpt.js"></SCRIPT>
+<SCRIPT>
+var r=chkSpt(),h=r.h,t='';
+if(h==='2')t='../h2/projects.html';
+else if(h==='3.2')t='../h3/projects.html';
+else if(h==='4.0')t='../h4/projects.html';
+else if(h==='4.01'||h==='5~')t='projects.html';
+else if(h==='5'){location.replace('https://yt-blog.top');t='x';}
+else t='projects.html';
+if(t!=='projects.html'&&t!=='x')location.replace(t);
+</SCRIPT>
+<LINK REL="preconnect" HREF="https://fonts.googleapis.com">
+<LINK REL="preconnect" HREF="https://fonts.gstatic.com" crossorigin>
+<LINK HREF="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" REL="stylesheet">
+<LINK REL="stylesheet" HREF="assets/css/style.css">
+</HEAD>
+<BODY>
+
+<DIV CLASS="page-header">
+    <A HREF="index.html" CLASS="back-link">
+        <svg WIDTH="16" HEIGHT="16" VIEWBOX="0 0 24 24" FILL="none" STROKE="currentColor" STROKE-WIDTH="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        返回
+    </A>
+    <SPAN CLASS="page-title">Projects</SPAN>
+    <BUTTON CLASS="menu-btn" ID="menuBtn" ARIA-LABEL="菜单" TYPE="button">
+        <SPAN></SPAN><SPAN></SPAN><SPAN></SPAN>
+    </BUTTON>
+</DIV>
+
+<DIV CLASS="menu-overlay" ID="menuOverlay">
+    <NAV CLASS="menu-inner">
+        <A HREF="index.html" CLASS="menu-link">Home</A>
+        <A HREF="about.html" CLASS="menu-link">About</A>
+        <A HREF="questions.html" CLASS="menu-link">Questions</A>
+        <A HREF="contact.html" CLASS="menu-link">Contact</A>
+    </NAV>
+</DIV>
+
+<MAIN>
+    <DIV CLASS="page-hero">
+        <H1>Selected<BR><SPAN CLASS="accent">Projects</SPAN></H1>
+        <P>从个人项目到团队协作，一些做过的东西。</P>
+    </DIV>
+
+    <DIV CLASS="projects-grid">
+        <ARTICLE CLASS="project-card">
+            <HEADER CLASS="pc-header"><SPAN CLASS="pc-name">Goh</SPAN><TIME CLASS="pc-year" DATETIME="2024">2024</TIME></HEADER>
+            <P CLASS="pc-desc">预编译高性能 Go 模板引擎。将解析过程从 Runtime 移到 Build time，通过预编译生成静态代码，高吞吐场景下边际开销趋近零。已知最快的 Go 语言模板包之一。</P>
+            <DIV CLASS="pc-tags"><SPAN CLASS="pc-tag">Go</SPAN><SPAN CLASS="pc-tag">Template Engine</SPAN><SPAN CLASS="pc-tag">High Performance</SPAN></DIV>
+            <DIV CLASS="project-links"><A HREF="https://github.com/Fgaoxing" TARGET="_blank" REL="noopener noreferrer" CLASS="project-link">Source &rarr;</A></DIV>
+        </ARTICLE>
+
+        <ARTICLE CLASS="project-card">
+            <HEADER CLASS="pc-header"><SPAN CLASS="pc-name">MiniGFM</SPAN><TIME CLASS="pc-year" DATETIME="2024">2024</TIME></HEADER>
+            <P CLASS="pc-desc">3KB 轻量级 Markdown 渲染库（Gzipped 仅 1.5KB）。无外部依赖、兼容 GFM 规范、内置 XSS 防护。专为微信小程序等对代码包体积极为敏感的环境设计。</P>
+            <DIV CLASS="pc-tags"><SPAN CLASS="pc-tag">JavaScript</SPAN><SPAN CLASS="pc-tag">Markdown</SPAN><SPAN CLASS="pc-tag">Lightweight</SPAN></DIV>
+            <DIV CLASS="project-links"><A HREF="https://github.com/Fgaoxing" TARGET="_blank" REL="noopener noreferrer" CLASS="project-link">Source &rarr;</A></DIV>
+        </ARTICLE>
+
+        <ARTICLE CLASS="project-card">
+            <HEADER CLASS="pc-header"><SPAN CLASS="pc-name">Vercel-CDN</SPAN><TIME CLASS="pc-year" DATETIME="2024">2024</TIME></HEADER>
+            <P CLASS="pc-desc">Vercel 全球加速方案。通过边缘缓存节点和自定义域名策略优化静态资源触达效率，解决中国境内访问 Vercel 延迟问题。提供可复用的配置模板。</P>
+            <DIV CLASS="pc-tags"><SPAN CLASS="pc-tag">Vercel</SPAN><SPAN CLASS="pc-tag">CDN</SPAN><SPAN CLASS="pc-tag">Network</SPAN></DIV>
+            <DIV CLASS="project-links"><A HREF="https://github.com/Fgaoxing" TARGET="_blank" REL="noopener noreferrer" CLASS="project-link">Source &rarr;</A><A HREF="https://yt-blog.top" TARGET="_blank" REL="noopener noreferrer" CLASS="project-link">Live &rarr;</A></DIV>
+        </ARTICLE>
+
+        <ARTICLE CLASS="project-card">
+            <HEADER CLASS="pc-header"><SPAN CLASS="pc-name">Xelsior</SPAN><TIME CLASS="pc-year" DATETIME="2023">2023</TIME></HEADER>
+            <P CLASS="pc-desc">记事本应用。Team OblivionOcean (TOO) 团队核心产品之一，支持富文本编辑、分类管理、云端同步等功能。</P>
+            <DIV CLASS="pc-tags"><SPAN CLASS="pc-tag">Desktop App</SPAN></DIV>
+            <DIV CLASS="project-links"><A HREF="https://github.com/Fgaoxing" TARGET="_blank" REL="noopener noreferrer" CLASS="project-link">Source &rarr;</A></DIV>
+        </ARTICLE>
+
+        <ARTICLE CLASS="project-card">
+            <HEADER CLASS="pc-header"><SPAN CLASS="pc-name">Hexo 主题</SPAN><TIME CLASS="pc-year" DATETIME="2023">2023</TIME></HEADER>
+            <P CLASS="pc-desc">个人 Hexo 博客主题开发。从设计到实现全栈覆盖，支持暗色模式、响应式布局、代码高亮、SEO 优化等特性。</P>
+            <DIV CLASS="pc-tags"><SPAN CLASS="pc-tag">Hexo</SPAN><SPAN CLASS="pc-tag">CSS / JS</SPAN><SPAN CLASS="pc-tag">Theme</SPAN></DIV>
+            <DIV CLASS="project-links"><A HREF="https://yt-blog.top" TARGET="_blank" REL="noopener noreferrer" CLASS="project-link">Blog &rarr;</A></DIV>
+        </ARTICLE>
+
+        <ARTICLE CLASS="project-card">
+            <HEADER CLASS="pc-header"><SPAN CLASS="pc-name">pandown-js</SPAN><TIME CLASS="pc-year" DATETIME="2023">2023</TIME></HEADER>
+            <P CLASS="pc-desc">网盘下载按钮链接工具。为百度网盘等平台提供便捷的下载入口，用户脚本形式部署。</P>
+            <DIV CLASS="pc-tags"><SPAN CLASS="pc-tag">JavaScript</SPAN><SPAN CLASS="pc-tag">Userscript</SPAN><SPAN CLASS="pc-tag">Utility</SPAN></DIV>
+            <DIV CLASS="project-links"><A HREF="https://github.com/Fgaoxing" TARGET="_blank" REL="noopener noreferrer" CLASS="project-link">Source &rarr;</A></DIV>
+        </ARTICLE>
+    </DIV>
+</MAIN>
+
+<FOOTER>
+    &copy; 2026 Fgaoxing &mdash; Built with care
+</FOOTER>
+
+<DIV CLASS="page-loader" ARIA-LABEL="页面加载中" ROLE="status"></DIV>
+<SCRIPT SRC="assets/js/main.js"></SCRIPT>
+</BODY>
+</HTML>
